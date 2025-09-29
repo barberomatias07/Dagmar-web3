@@ -1,0 +1,29 @@
+section {
+  padding: 3rem 0;
+
+  h2 {
+    font-family: $fuente-principal;
+    color: $color-titulo;
+  }
+
+  p {
+    line-height: 1.8;
+    color: $color-texto;
+  }
+}
+
+.spotify-btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 8px;
+  background: $color-acento;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    background: lighten($color-acento, 10%);
+    transform: scale(1.1);
+  }
+}
